@@ -1,0 +1,146 @@
+1) Write the list of memory measurement units 
+
+2) Write the list of Keywords in C language
+
+3) write a program to accept salary, allowances and deductions and calculate net_salary and print it
+
+4) write a program to accept the cost, quantity and calculate total_amount and print total_amount
+
+5) extend above program to caluclate 10% of total_amount as discount and net_amount
+  discount = total_amount*10/100;
+  net_amount = total_amount-discount;
+
+6) what will happen if we assign a value beyond the range to a variable of a datatype
+
+7) using the conditional operator write a program to print the biggest of 3 values
+
+8) using the conditional operator write a program to print the smallest of 3 values
+
+9) for the  above program (7) if we give the inputs as follows which value is printed on the output (1t or 2nd or 3rd)
+   	10	30	50	3rd value
+	10	40	40	3rd value
+	40	10	40	3rd value
+	40	40	10	2nd value
+	40	40 	40	3rd value
+
+	big=(a>b && a>c) ? a : (b>c) ? b : c;
+
+if-else
+-------
+10) write atleast 3 method to print if a given input is even or odd number
+
+11) accept the age of a person and print if that person is eligible to vote or not
+
+12) accept the age of two person and print who is elder to whom
+
+13) accept the cost and qty of a product. if the total amount is more than 500 then allow a discount of 8% or else allow the discount as 3% and print the net amout payable.
+
+14) accept the marks of 3 subjects and print PASS if the student gets more than 35 in the first subject and any of the rest 2 subject above 35 otherwise print FAIL.
+
+15) accept salary of a person and print the tax to pay:
+	>=50000		3000
+	>=30000		2000
+	>=20000		1000
+	others		0
+
+16) accept the gender (M/F) and print if the person is MALE or FEMALE
+
+17) accept the age of a person and print it as :
+	0 to 12		kid
+	13 to 19	Teanager
+	19 to 50	Young Person
+	51 to 60	Middle aged person
+	60 to 80	Young old person
+	>80		Old person
+
+18) accept a single character and print if it is a vowel or not
+
+19) accept a single character and print if it is a vowel or consonent
+
+20) accept a character and print if the input is 
+	A-Z	uppercase letter
+	a-z	lowercase letter
+	0-9	digit
+	others	special character
+
+21) accept a 3 digit number and 
+	a) print the relation between 1st and 3rd digit
+	b) print the relation between 2st and 3rd digit
+	c) print the biggest digit
+	
+	any number%10		gives last digit
+	any number/10		gives other than last digit
+	any number%100		gives last 2 digits
+	any number/100		gives other than last 2 digits	
+
+22) accept a 4 digit number and print the relation between the sum of first 2 digits and the sum of last 2 digit
+
+switch-case:
+23) accept the grade and print the remarks
+	A->Good		B->Can do better	C->Work hard		D->Poor
+
+24) Accept department_id (10/20/30/40/50/60) and print the bonus amount
+	10/30/40	5000
+	20/60		8000
+	50		9000
+	others		4000
+
+25) accept a 4 digit number and :
+	a) print if all of its 4 digits are unique(different) or not
+	b) if the number contains atlease one digit duplicate
+		4649 (yes)	5556 (yes)	8888(yes)	8764(NO)
+
+26) accept a 5 digit number and each digit with number of repetations in it
+	Ex: 30550 ---> 3-1, 0-2, 5-2
+	Ex: 40000 ---> 4-1, 0-4
+
+27) write a program to print the following series of values 
+	a) from -1 to -5 and its reverse.
+	b) even numbers between 20 and 50
+	c) 5, 10, 15, 20, 25, 30, 35, 40, 45, 50
+	d) -20, -18, -16, -14, -12, -10, -8, -6, -4, -2
+
+28) write a program to accept a number n, and print the sum of even number upto n.
+	EX: 10		add 2,4,6,8,10 ---> 30
+
+29) write a program to accept a number n, and print the sum of those numbers that are odd and divisible with 3
+	EX: 30		add 3,9,15,21,27 ---> 75
+
+30) accept values for x and y and print the multiplication tables of all numbers between x and y.
+
+31) repeat the above program to print the tables of numbers y to x
+
+32) accept a number k and print k prime numbers beginning from 2.
+
+33) accept a number and print the number of even digits and number of odd digits in it.	Ex: 589327    No. of Even digit 2     No of odd digits 4
+
+34) accept a number and print the sum of odd digits that divisible with 3 also.
+	Ex: 589327    3+9-->12
+
+35) accept a number and print the sum of those digits that occur at even positions counting from right to left.	Ex: 5893274    7+3+8-->18
+
+36) find out what is called as an amstrong number and give 3 examples
+
+37) write a program using functions to print if 2 given numbers are even or odd
+
+38) write a program using functions accept starting and ending number and print the multiplication table of each number
+
+39) write a program to print the numbers from 10 to 1 using recurrsive function
+
+40) write a program to calculate the number of digits int a given number using recurrsive function
+
+41) Using arrays write a program to accept grades(A/B/C/D) of 10 persons and print the count of each grade.
+
+42) Using arrays write a program to initialize int values into array of 10 elements and print the number of even number and number of odd number
+
+43) Using arrays accept int values into array of 10 elements, accept a value (key) to search and print the number of occurances of the key.
+
+44) accept a string and print the number of vowels in it.
+
+45) accept a string and convert it into uppercase without using strupr()
+
+46) using pointers accept 3 values and print the biggest 
+
+47) using pointers accept 2 values and print the before and after swapping
+
+48) using pointers to structures, declare a structure for storing a book details, accept the values and print the same.
